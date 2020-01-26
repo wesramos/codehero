@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Code Hero</string>
+    <string name="api_marvel_key_public">de01115e013e1c0a0a0eaad1074beaae</string>
+    <string name="api_marvel_key_private">5d047ae672d24da65476ef9162548e1e4fa2151c</string>
+</resources>

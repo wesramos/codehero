@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/dialogDetailsCharacter_ivTumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/background_input" />
+
+    <TextView
+        android:id="@+id/dialogDetailsCharacter_tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="Lorem Ipsum"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dialogDetailsCharacter_tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Lorem Ipsum"
+        android:textColor="#2D2E2E" />
+
+    <Button
+        android:id="@+id/dialogDetailsCharacter_btDismiss"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Fechar"
+        android:textColor="@android:color/white" />
+</LinearLayout>
